@@ -7,6 +7,10 @@ Lossless audio is best audio quality you can get and even Spotify limits audio q
 
 A command-line tool that bridges Spotify playlists with Soulseek. Scrape tracks from any Spotify playlist and automatically search & download them as lossless FLAC files through a local [slskd](https://github.com/slskd/slskd) instance.
 
+## Demo
+
+<video src="assets/demo.mov" controls width="100%"></video>
+
 ## How It Works
 
 ### Step 1 — Extract Playlists from Spotify
@@ -107,5 +111,7 @@ The slskd base URL can be changed in `utils/login.js`.
 │   ├── login.js              # slskd authentication
 │   ├── soulseekUtils.js      # Search, file selection, and download logic
 │   └── textCleanUp.js        # Query cleaning and filename matching
+├── assets/
+│   └── demo.mov              # Puppeteer scraping demo
 └── Playlists/                # Extracted playlist JSON files
 ```
