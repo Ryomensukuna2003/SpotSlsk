@@ -9,7 +9,11 @@ A command-line tool that bridges Spotify playlists with Soulseek. Scrape tracks 
 
 ## Demo
 
-<video src="assets/demo.mp4" controls width="100%"></video>
+
+
+https://github.com/user-attachments/assets/f36bfe1c-2d65-4b3a-9e1d-c4ae5950e55a
+
+
 
 ## How It Works
 
