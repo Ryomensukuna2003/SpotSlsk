@@ -1,5 +1,10 @@
 # SpotSlsk
 
+Since spotify prices are too high, Spotify restricted API usage and I don't want to pay for digital info, I took matters in my own hand and build spotify playlist downloader type. 
+
+What is Lossless? (FLAC files)
+Lossless audio is best audio quality you can get and even Spotify limits audio quality to 320kbps. Lossless audio is a type of audio compression that preserves the original quality of the audio file. It is a type of audio compression that does not lose any information from the original audio file. It is a type of audio compression that does not lose any information from the original audio file.
+
 A command-line tool that bridges Spotify playlists with Soulseek. Scrape tracks from any Spotify playlist and automatically search & download them as lossless FLAC files through a local [slskd](https://github.com/slskd/slskd) instance.
 
 ## How It Works
