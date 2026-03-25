@@ -28,11 +28,31 @@ A command-line tool that bridges Spotify playlists with Soulseek. Scrape tracks 
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/) (v18+)
-- [slskd](https://github.com/slskd/slskd) running locally (default: `http://localhost:5030`)
-- A configured Soulseek account in slskd
+- [Docker](https://www.docker.com/)
+- A Soulseek account
 - A Spotify account (free or premium)
 
 ## Installation
+
+### 1. Run slskd via Docker
+
+```bash
+docker run -d \
+  --name slskd \
+  -p 5030:5030 \
+  -p 5031:5031 \
+  -p 50300:50300 \
+  -v $(pwd)/slskd:/app \
+  -e SLSKD_SLSK_USERNAME=your_soulseek_username \
+  -e SLSKD_SLSK_PASSWORD=your_soulseek_password \
+  -e SLSKD_USERNAME=admin \
+  -e SLSKD_PASSWORD=admin \
+  ghcr.io/slskd/slskd:latest
+```
+
+The slskd web UI will be available at `http://localhost:5030`. Downloaded files are saved to `./slskd/downloads/`.
+
+### 2. Install SpotSlsk
 
 ```bash
 git clone https://github.com/yourusername/spotslsk.git
