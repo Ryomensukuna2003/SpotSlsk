@@ -80,7 +80,3 @@ npm start
 │   └── textCleanUp.js        # Query cleaning and filename matching
 └── Playlists/                # Playlist JSON files
 ```
-
-## License
-
-ISC
