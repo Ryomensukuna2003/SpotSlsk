@@ -2,6 +2,5 @@
 node_modules
 Playlists/
 .DS_Store
-
-
-git commit -m "SpotSlsk: Initial commit"
+.spotify-token.json
+.spotify-cookies.json
