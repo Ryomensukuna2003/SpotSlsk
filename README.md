@@ -9,7 +9,7 @@ A command-line tool that bridges Spotify playlists with Soulseek. Scrape tracks 
 
 ## Demo
 
-<video src="assets/demo.mov" controls width="100%"></video>
+<video src="assets/demo.mp4" controls width="100%"></video>
 
 ## How It Works
 
@@ -112,6 +112,6 @@ The slskd base URL can be changed in `utils/login.js`.
 │   ├── soulseekUtils.js      # Search, file selection, and download logic
 │   └── textCleanUp.js        # Query cleaning and filename matching
 ├── assets/
-│   └── demo.mov              # Puppeteer scraping demo
+│   └── demo.mp4              # Puppeteer scraping demo
 └── Playlists/                # Extracted playlist JSON files
 ```
