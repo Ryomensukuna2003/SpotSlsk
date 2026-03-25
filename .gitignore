@@ -1,0 +1,7 @@
+.env
+node_modules
+Playlists/
+.DS_Store
+
+
+git commit -m "SpotSlsk: Initial commit"

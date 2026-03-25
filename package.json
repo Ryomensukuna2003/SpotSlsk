@@ -1,0 +1,17 @@
+{
+  "name": "spotslsk",
+  "version": "1.0.0",
+  "description": "Spotify playlist to Soulseek FLAC downloader",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Lord Shivanshu Mishra",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "spotify-web-api-node": "^5.0.2"
+  }
+}
